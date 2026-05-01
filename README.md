@@ -1,101 +1,64 @@
 # CODSOFT
-CodSoft AI Internship Projects (Tasks 1, 2 & 5)
+# CodSoft AI Internship Projects (Tasks 1, 2 & 5)
 
-Description:
-Successfully completed multiple AI-based projects during the CodSoft AI Internship, focusing on machine learning, game intelligence, and computer vision. The projects include a rule-based healthcare chatbot with ML classification, an unbeatable Tic-Tac-Toe AI using search algorithms, and a face detection & recognition system integrated with an automated attendance system.
-🏥 Healthcare Chatbot (Rule-Based + ML)
-📌 Project Overview
+## 📌 Description
+Completed AI internship projects including a healthcare chatbot using ML, a Tic-Tac-Toe AI with minimax and alpha-beta pruning, and a face detection system with automated attendance using OpenCV.
 
-This project is a healthcare chatbot designed to assist users by analyzing symptoms and providing basic medical suggestions, precautions, and responses. It combines rule-based logic with machine learning techniques for improved classification.
+---
 
-🚀 Features
-Rule-based chatbot using if-elif conditions
-Symptom-based disease prediction
-Multi-class classification using ML models
-Provides precautions and health advice
-Interactive UI using Streamlit
-🧠 Machine Learning Models Used
-Decision Tree Classifier
-Support Vector Machine (SVM)
-🛠️ Technologies Used
-Python
-Scikit-learn
-Streamlit
-Pandas / NumPy
-⚙️ How It Works
-User inputs symptoms
-System processes input using trained ML models
-Predicts disease category
-Displays precautions and suggestions
-▶️ Run the Project
+# 🏥 Healthcare Chatbot (Rule-Based + ML)
+
+## 📌 Project Overview
+Healthcare chatbot that analyzes symptoms and provides medical suggestions using rule-based logic and machine learning.
+
+## 🚀 Features
+- Rule-based chatbot (if-elif)
+- Symptom-based disease prediction
+- ML classification (Decision Tree, SVM)
+- Streamlit UI
+
+## ▶️ Run
+```bash
 streamlit run app.py
-📊 Future Improvements
-Add NLP-based chatbot (instead of rule-based)
-Integrate real-time medical APIs
-Improve dataset quality
-👤 Author
+```
 
-Kaushik Bhattacharyya
+---
 
-❌⭕ Tic-Tac-Toe AI (Minimax + Alpha-Beta Pruning)
-📌 Project Overview
+# ❌⭕ Tic-Tac-Toe AI
 
-This project implements an intelligent Tic-Tac-Toe AI agent that plays optimally against a human player using game theory and search algorithms.
+## 📌 Project Overview
+AI-based Tic-Tac-Toe game using minimax and alpha-beta pruning for optimal decision making.
 
-🚀 Features
-Intelligent AI agent (almost unbeatable)
-Minimax algorithm for decision making
-Alpha-Beta pruning for optimization
-Efficient game state evaluation
-🧠 Algorithms Used
-Minimax Search Algorithm
-Alpha-Beta Pruning
-🛠️ Technologies Used
-Python
-⚙️ How It Works
-User plays against AI
-AI evaluates all possible moves
-Uses minimax to select optimal move
-Alpha-beta pruning reduces computation time
-▶️ Run the Project
+## 🚀 Features
+- Minimax algorithm
+- Alpha-beta pruning
+- Nearly unbeatable AI
+
+## ▶️ Run
+```bash
 python tic_tac_toe.py
-📊 Future Improvements
-Add GUI using Tkinter or Pygame
-Extend to multiplayer mode
-Add difficulty levels
-👤 Author
+```
 
-Kaushik Bhattacharyya
+---
 
-🎯 Face Detection & Recognition System with Attendance
-📌 Project Overview
+# 🎯 Face Detection & Recognition System
 
-This project is a computer vision-based system that detects and recognizes faces using OpenCV. It also includes an automated attendance system that records names and timestamps into a CSV file.
+## 📌 Project Overview
+Face detection and recognition system using OpenCV with automated attendance logging.
 
-🚀 Features
-Real-time face detection
-Face recognition using trained images
-Automated attendance system
-Stores data in CSV with timestamp
-🧠 Techniques Used
-Haar Cascade Classifier
-Image training using OpenCV
-🛠️ Technologies Used
-Python
-OpenCV
-NumPy
-CSV handling
-⚙️ How It Works
-Capture live video from webcam
-Detect faces using Haar Cascade
-Match with trained dataset
-Record attendance with timestamp
-▶️ Run the Project
+## 🚀 Features
+- Real-time face detection
+- Face recognition
+- Attendance in CSV with timestamp
+
+## ▶️ Run
+```bash
 python face_recognition.py
-📊 Future Improvements
-Add deep learning (CNN-based recognition)
-Improve accuracy in low light
-Integrate database instead of CSV
-👤 Author
+```
 
+---
+
+## 👤 Author
 Kaushik Bhattacharyya
+
+
